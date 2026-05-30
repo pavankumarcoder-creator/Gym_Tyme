@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #212121;
+}
+nav {
+  background-color: white;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+/* Media Queries - Mobile First Approach */
+@media (min-width: 360px) {
+  nav img {
+    height: 5vh;
+    width: auto;
+    margin-right: 1rem;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 2vh 0;
+  }
+  nav h3 {
+    color: #212121;
+    font-weight: bolder;
+  }
+
+  .one h4,
+  p {
+    text-align: center;
+    padding: 1.5vh 0;
+  }
+  .one h4 {
+    margin-top: 5vh;
+  }
+
+  .one img {
+    padding-top: 3vh;
+  }
+
+  .two {
+    background-color: white;
+    padding: 1.5rem;
+    width: 70%;
+    margin: 5vh auto;
+    border-radius: 12px;
+  }
+
+  .two label {
+    color: #212121;
+    font-size: 1.1rem;
+  }
+
+  .two input[type="text"],
+  input[type="email"] {
+    padding: 0.5rem;
+    border: none;
+    outline: 0;
+    border-bottom: 3px solid #212121;
+    font-size: 1.2rem;
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  .two input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .checkboxes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .button {
+    background-color: #212121;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    width: 90%;
+    padding: 0.9rem;
+    border-radius: 12px;
+    margin-top: 3vh;
+  }
+
+  .equipment_list h3 {
+    text-align: center;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 1.5rem;
+  }
+  .segmentA,
+  .segmentB {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .segmentA h3 {
+    color: #212121;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .segmentA img {
+    width: 70%;
+  }
+
+  .segmentB {
+    background-color: #212121;
+    padding-top: 2rem;
+  }
+
+  .segmentA h3 {
+    text-align: center;
+  }
+  .segmentA img {
+    width: 70%;
+  }
+}
+
+@media (min-width: 700px) {
+  .one h4,
+  p {
+    font-size: 1.6rem;
+  }
+
+  .equipment_list h3 {
+    font-size: 1.6rem;
+  }
+
+  .cards {
+    margin: 4.5rem;
+  }
+
+  .segments {
+    display: flex;
+  }
+}
+
+@media (min-width: 900px) {
+  nav {
+    justify-content: left;
+    padding-left: 10vw;
+  }
+
+  .one h4,
+  p {
+    display: none;
+  }
+  .hero {
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .two label,
+  input[type="text"],
+  input[type="email"] {
+    font-size: 1rem;
+    color: black;
+  }
+  .two form {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .two {
+    padding: 2rem;
+    margin-top: 6rem;
+  }
+  .two .button {
+    width: 100%;
+  }
+  .equipment_list h3 {
+    font-size: 2rem;
+    margin-top: 10vh;
+  }
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .segmentA h3,
+  .segmentB h3 {
+    font-size: 2rem;
+  }
+ .segments{
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    margin: 4.5rem;
+    
+ }
+  .segmentA img {
+    width: 500px;
+  }
+
+  .segmentB img {
+    width: 80%;
+  }
+}

@@ -24,4 +24,4 @@ Gym Tyme is a simple web application for browsing and booking gym equipment onli
 ## ⚙️ How to Run the Project
 
 1. Clone the repository
-2. Open index.html in your browser:
+2. Open index.html in your browser

@@ -16,9 +16,9 @@ Gym Tyme is a simple web application for browsing and booking gym equipment onli
 - Membership section
 
 ## 🛠️ Tech Stack
-HTML5
-CSS3 (linked via style.css)
-Basic frontend UI
+- HTML5
+- CSS3 (linked via style.css)
+- Basic frontend UI
 
 
 ## ⚙️ How to Run the Project
